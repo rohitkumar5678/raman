@@ -25,7 +25,7 @@ const App = () => {
   
 
   
-  const presaleStartDate = new Date('2025-01-20T00:00:00'); // Adjust to your presale start time
+  const presaleStartDate = new Date('2025-01-26T00:00:00'); // Adjust to your presale start time
 
   
 
