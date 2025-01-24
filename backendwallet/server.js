@@ -3,7 +3,7 @@ const express = require("express");
 const { ethers } = require("ethers");
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://rupaiyatoken.com', // Replace * with your frontend URL for security
+    origin: '*', // Replace * with your frontend URL for security
     allowedHeaders: ['Content-Type', 'Authorization', 'x-rtb-fingerprint-id']
 }));
 
