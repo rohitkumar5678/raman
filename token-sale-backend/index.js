@@ -1,6 +1,10 @@
 const express = require("express");
 const Razorpay = require("razorpay");
-const cors = require("cors");
+const cors = require('cors');
+app.use(cors({
+    origin: 'https://rupaiyatoken.com', // Replace * with your frontend URL for security
+    allowedHeaders: ['Content-Type', 'Authorization', 'x-rtb-fingerprint-id']
+}));
 
 const app = express();
 app.use(express.json());
